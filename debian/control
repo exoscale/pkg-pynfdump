@@ -1,0 +1,18 @@
+Source: pynfdump
+Section: python
+Priority: optional
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends:
+ debhelper (>= 9),
+ python-all-dev,
+ python-setuptools
+Standards-Version: 3.9.6
+
+Package: python-nfdump
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${python:Depends},
+ ${shlibs:Depends},
+ nfdump
+Description: wrapper around nfdump application

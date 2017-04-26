@@ -1,0 +1,5 @@
+pynfdump (0.6.0-0~xenial0+exo1) xenial; urgency=medium
+
+  * Initial release.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 26 Apr 2017 17:04:36 +0200
