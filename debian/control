@@ -4,15 +4,16 @@ Priority: optional
 Maintainer: Vincent Bernat <bernat@debian.org>
 Build-Depends:
  debhelper (>= 9),
- python-all-dev,
- python-setuptools
+ python3-all,
+ python3-setuptools,
+ dh-python,
 Standards-Version: 3.9.6
 
-Package: python-nfdump
+Package: python3-nfdump
 Architecture: any
 Depends:
  ${misc:Depends},
- ${python:Depends},
+ ${python3:Depends}
  ${shlibs:Depends},
  nfdump
 Description: wrapper around nfdump application
