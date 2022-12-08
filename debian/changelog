@@ -1,3 +1,9 @@
+pynfdump (0.6.0-0~jammy0+exo1) jammy; urgency=medium
+
+  * Rebuild with python3 for Ubuntu Jammy.
+
+ -- Alexandros Afentoulis <alexandros.afentoulis@exoscale.ch>  Thu, 08 Dec 2022 13:57:42 +0200
+
 pynfdump (0.6.0-0~bionic0+exo1) bionic; urgency=medium
 
   * Initial release.
